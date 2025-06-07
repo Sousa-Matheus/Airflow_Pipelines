@@ -1,0 +1,18 @@
+# Arquivos Python
+__pycache__/
+*.pyc
+
+# Logs do Airflow
+logs/
+*.log
+
+# SQLite do Airflow
+airflow.db
+airflow.cfg
+unittests.cfg
+
+# Credenciais e variáveis secretas
+.env
+
+# Plugins cache
+plugins/__pycache__/
